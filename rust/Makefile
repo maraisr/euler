@@ -1,4 +1,4 @@
-run:
+all:
 	mkdir dist -p
-	rustc $(file).rs -o dist/$(file) -v
-	./dist/$(file)
+	rustc problem_$(file).rs -o dist/problem_$(file) -v
+	./dist/problem_$(file)
