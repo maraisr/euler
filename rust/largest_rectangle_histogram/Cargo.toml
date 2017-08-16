@@ -1,0 +1,6 @@
+[package]
+name = "largest_rectangle_histogram"
+version = "0.1.0"
+authors = ["Marais Rossouw <me@maraisr.com>"]
+
+[dependencies]
