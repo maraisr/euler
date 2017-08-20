@@ -1,0 +1,13 @@
+name:                euler
+version:             0.1.0.0
+license:             MIT
+license-file:        LICENSE
+author:              Marais Rossouw
+maintainer:          me@maraisr.com
+build-type:          Simple
+cabal-version:       >=1.10
+
+executable euler
+  main-is:             Main.hs
+  build-depends:       base >=4.9 && <4.10
+  default-language:    Haskell2010
